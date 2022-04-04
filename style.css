@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(112, 18, 18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+#mainContainer {
+  margin: 0 auto;
+  width: 420px;
+  height: 430px;
+  border: rgb(173, 173, 173) 2px solid;
+  border-radius: 5px;
+  padding-top: .7em;
+}
+#inputContainer {
+  border-radius: 5px;
+  width: 420px;
+  background-color: rgb(194, 194, 194);
+  height: 80px;
+  font-size: 3em;
+}
+#resultNumber {
+  padding-left: .5em;
+}
+#buttonContainer {
+  display: flex;
+  padding-top: 1em;
+  width: 500px;
+}
+.numpadNums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3em;
+}
+
+.numpadNums>button {
+  height: 80px;
+  width: 80px;
+  font-size: 2em;
+  background:  rgb(184, 184, 184);
+}
+.numpadNums>button:hover {
+  background-color: greenyellow;
+}
